@@ -1,0 +1,29 @@
+
+
+
+
+CREATE TABLE EMPLOYEE(
+						EID int primary key auto_increment,
+						ENAME VARCHAR(12) NOT NULL,
+						USERNAME VARCHAR(20) NOT NULL,
+						PASSWORD VARCHAR(10) NOT NULL,
+						EDID INT,
+					    FOREIGN KEY(EDID) REFERENCES DEPARTMENT(DNO)
+					);
+					
+CREATE TABLE DEPARTMENT(
+						DNAME VARCHAR(15) NOT NULL,
+						DNO INT PRIMARY KEY
+						);
+						
+						
+						
+					
+						
+						
+						CREATE TABLE leaves (
+											empID INT NOT NULL,
+											status VARCHAR(20) NOT NULL DEFAULT 'Pending',
+											FOREIGN key (empID) REFERENCES employee (Eid)
+											);
+						
