@@ -9,16 +9,6 @@ public class acceptLeavesUsecase {
 	
 	public static void main(String[] args) {
 		
-//			Scanner sc = new Scanner(System.in);
-//			
-//			System.out.println("Enter Employee Id  : ");
-//			int empid=sc.nextInt();
-//			
-//			EmployeeDao dao = new EmployeeDaoImpl();
-//			
-//			String result = dao.acceptLeaves(empid);
-//			
-//			System.out.println(result);
 	}
 
 	
