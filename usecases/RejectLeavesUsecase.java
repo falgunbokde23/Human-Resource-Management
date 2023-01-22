@@ -8,9 +8,6 @@ public class RejectLeavesUsecase {
 
 	
 	
-	public static void main(String[] args) {
-	
-}
 	
 	public static void rejectLeaves() {
 		Scanner sc = new Scanner(System.in);
