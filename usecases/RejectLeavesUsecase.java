@@ -6,9 +6,6 @@ import com.masai.dao.EmployeeDaoImpl;
 
 public class RejectLeavesUsecase {
 
-	
-	
-	
 	public static void rejectLeaves() {
 		Scanner sc = new Scanner(System.in);
 		
