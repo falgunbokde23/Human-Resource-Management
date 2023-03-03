@@ -1,6 +1,6 @@
 # Human-Resource-Management
 
-This project is developed by falgun Manoj Bokde
+This project is developed by Falgun Manoj Bokde
 
 <h1><b>About</b></h1>
 
